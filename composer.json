@@ -15,5 +15,13 @@
         "psr-4": {
             "Saqlain\\Contact\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saqlain\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
